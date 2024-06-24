@@ -47,6 +47,11 @@ docker-compose up -d
 2. check websites
 Airflow: http://localhost:8080
 
+```txt
+user: airflow
+password: airflow
+```
+
 Spark Master: http://localhost:8181
 
 PostgreSql - Database Test:
