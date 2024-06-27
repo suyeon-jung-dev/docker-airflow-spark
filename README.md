@@ -1,6 +1,6 @@
 # docker-airflow-spark
 
-한글 문서는 [아래](#docker로-airflow_spark-연동하기)를 봐주세요!
+### 🇰🇷 한글 문서는 [아래](#docker로-airflow_spark-연동하기)를 봐주세요!
 
 This project contains the following containers:
 
@@ -41,9 +41,9 @@ This project contains the following containers:
 
 ## How to start
 
-1. run in background
+1. run in background with build
 ```console
-docker-compose up -d
+docker-compose up --build -d
 ```
 
 2. check websites
@@ -73,7 +73,6 @@ docker logs -f docker-airflow-spark-jupyter-spark-1
 ## Spark
 
 Safely way to stop Spark container 
-
 ```console
 docker stop $(docker-compose ps | grep spark | awk '{print $1}')
 ```
@@ -89,6 +88,7 @@ docker-compose ps | grep spark | awk '{print $1}'
 
 
 ------
+From here, This document written in korean 😊
 # docker로 airflow_spark 연동하기
 
 본 프로젝트는 다음 컨테이너들로 구성되어 있습니다 :)
